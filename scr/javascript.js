@@ -13,17 +13,17 @@ window.onload = function() {
     }
 
     // Nível com base nas vitórias
-    if (wins < 10) {
+    if (saldo < 10) {
         nivel = "Ferro";
-    } else if (wins >= 11 && wins <= 20) {
+    } else if (saldo >= 11 && saldo<= 20) {
         nivel = "Bronze";
-    } else if (wins >= 21 && wins <= 50) {
+    } else if (saldo>= 21 && saldo<= 50) {
         nivel = "Prata";
-    } else if (wins >= 51 && wins <= 80) {
+    } else if (saldo >= 51 && saldo <= 80) {
         nivel = "Ouro";
-    } else if (wins >= 81 && wins <= 90) {
+    } else if (saldo >= 81 && saldo <= 90) {
         nivel = "Diamante";
-    } else if (wins >= 91 && wins <= 100) {
+    } else if (saldo >= 91 && saldo <= 100) {
         nivel = "Lendário";
     } else {
         nivel = "Imortal";
